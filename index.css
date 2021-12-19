@@ -1,0 +1,136 @@
+html,body{
+   margin:0;
+   padding:0;
+   background:rgb(51, 51, 53);
+}
+.content{
+  display:flex;
+  height:100vh;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center
+
+}
+.screen{
+   display:flex;
+   flex-direction:column;
+   width:220px;
+   height:380px;
+   border:2px solid rgb(0, 0, 0);
+   border-radius:6px;
+   background-color:#000000;
+}
+#in{ 
+   text-align:right;
+   font-size:45px;
+   font-family: 'Biryani', sans-serif;
+   color:#fff;
+   width:215px;
+   height:70px;
+   border:none;
+   outline:none;
+   background-color:#000000;
+  
+}
+.redondo{ 
+   height:24px;
+   width:200px;
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+   background-color:#000000;
+   border-radius:2px,0px;
+}
+.r{
+   border-radius:50%;
+   width:15px;
+   height:15px;
+   background-color:#ec312e;
+   margin:4px;
+}
+.y{  
+  border-radius:50%;
+  width:15px;
+  height:15px;
+  background-color:rgb(245, 225, 42);
+
+  margin:4px;
+}
+.g{ 
+  border-radius:50%;
+  width:15px;
+  height:15px;
+  background-color:rgb(36, 241, 29);
+ 
+  margin:4px;
+}
+.c{
+  width:45px;
+  height:45px;
+  background-color:#c2bcbc;
+  text-align:center;
+  border-radius:50%;
+  line-height:45px;
+  font-size:20px;
+  font-family:helvetica;
+  font-weight:600;
+  color:black;
+  margin:3px;
+  padding-bottom:0px;
+  cursor:pointer
+}
+.l{
+   width:45px;
+   height:45px;
+   background-color:#ffa500;
+   text-align:center;
+   border-radius:50%;
+   line-height:45px;
+   font-size:25px;
+   font-family:helvetica;
+   font-weight:600;
+   color:black;
+   margin:3px;
+   cursor:pointer
+ }
+.keyboard{
+   display:flex;
+   width:210px;
+   height:240px;
+   flex-direction:row;
+   justify-content:space-evenly;
+   flex-wrap:wrap;
+   margin:6px;
+}
+.z{
+   width:45px;
+   height:45px;
+   background-color:#454545;
+   text-align:center;
+   border-radius:50%;
+   line-height:45px;
+   font-size:20px;
+   font-family:helvetica;
+   font-weight:600;
+   color:rgb(255, 255, 255);
+   margin:4px;
+   cursor:pointer
+ }
+.zero{
+   width:85px;
+   height:40px;
+   background-color:#454545;
+   border-radius:20px;
+   text-align:left;
+   line-height:10px
+}
+.z{
+   margin:0;
+   font-size:18px;
+   font-weight:600;
+   font-family:helvetica;
+   line-height:45px;
+}
+::selection{
+   background-color:rgba(255, 255, 255, 0);
+}
